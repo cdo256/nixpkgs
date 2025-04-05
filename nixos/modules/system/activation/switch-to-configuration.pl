@@ -1013,7 +1013,7 @@ if (scalar(@new) > 0) {
 if (scalar(@failed) > 0) {
     my @failed_sorted = sort(@failed);
     print STDERR "warning: the following units failed: ", join(", ", @failed_sorted), "\n\n";
-    system("$new_systemd/bin/systemctl status --no-pager --full '" . join("' '", @failed_sorted) . "' >&2");
+    system("$new_systemd/bin/systemctl status --lines=16 --no-pager --full '" . join("' '", @failed_sorted) . "' >&2");
     $res = 4;
 }
 

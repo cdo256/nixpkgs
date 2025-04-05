@@ -1928,6 +1928,7 @@ won't take effect until you reboot the system.
             .arg("status")
             .arg("--no-pager")
             .arg("--full")
+            .arg("--lines=16")
             .args(failed_units)
             .spawn()
             .map(|mut child| child.wait());

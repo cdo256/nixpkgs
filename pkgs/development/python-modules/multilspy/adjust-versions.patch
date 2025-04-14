@@ -1,0 +1,13 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 5afd9c0..35f85e2 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -28,7 +28,7 @@ classifiers = [
+ ]
+ 
+ dependencies = [
+-  "jedi-language-server==0.41.3",
++  "jedi-language-server>=0.41.3",
+   "requests==2.32.3",
+   "typing-extensions>=4.2.0",
+   "psutil (>=7.0.0,<8.0.0)"

@@ -9123,6 +9123,8 @@ self: super: with self; {
 
   multidict = callPackage ../development/python-modules/multidict { };
 
+  multilspy = callPackage ../development/python-modules/multilspy { };
+
   multimethod = callPackage ../development/python-modules/multimethod { };
 
   multipart = callPackage ../development/python-modules/multipart { };

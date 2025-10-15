@@ -101,7 +101,7 @@ let
 in
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "zed-editor";
-  version = "0.207.4";
+  version = "0.208.4";
 
   outputs = [
     "out"
